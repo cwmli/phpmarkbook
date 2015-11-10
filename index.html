@@ -1,0 +1,45 @@
+<DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8"> 
+		<link rel="stylesheet" type="text/css" href="theme.css">
+		<link rel="stylesheet" type="text/css" href="animate.css">
+		<link rel="stylesheet" type="text/css" href="font_data.css">
+		<script src="scripts/flipcard.js" type="text/javascript"></script>
+		<title>Calvin's Collective</title>
+	</head>
+	<body>
+		<div class="menublock">
+			<div class="menutitlecontainer">
+				<div class="menutitle">CALVIN'S <sub>COLLECTIVE</sub></div>
+			</div>
+			<div class="menucontainer" style="margin-right: 2em;">
+				<div class="menuitem">CONTACT</div>
+			</div>
+			<div class="menucontainer">
+				<div class="menuitem">ABOUT</div>
+			</div>
+			<div class="menucontainer">
+				<div class="menuitem">PROJECTS</div>
+			</div>
+		</div>
+		<div class="maincontainer">
+			<div class="subcontainer">
+				<div class="flipcardbase" 
+					style="background-size: contain; background-image: url('images/LOSH.jpg');" 
+					id="LOSH"
+					onmouseout="fcpdRemove()">
+					<button id="flipcardcontent" 
+						onmouseover="fpcdPrint(this.id)">
+						LEGEND OF SIR_HAT
+					</button>
+				</div>
+				<div class="flipcardbase" style="background-size: contain; background-image: url('images/OMB.jpg');alt:'OMB';" id="OMB">
+					<div id="flipcardcontent">
+						<a href="online_markbook/mbview.php">PHP & MYSQL MARKBOOK</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
